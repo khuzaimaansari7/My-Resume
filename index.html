@@ -5,38 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Resume</title>
     <style>
-        .d1 {
-            background-color: rgb(15, 112, 104);
-            height: 200px;
-            width: 200px;
-            border: 10px solid black;
+        body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+        .header{
+            background-color: #0E8388;
+            padding: inherit;
         }
-        
-        .d2 {
-            visibility: hidden;
-            /*display: none;*/
-            background-color: yellow;
-            height: 200px;
-            width: 200px;
-            border: 20px solid black;
-            margin-left: 220px;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
         }
-        
-        .d3 {
-            background-color: blue;
-            height: 200px;
-            width: 200px;
-            border: 30px solid black;
-            margin-left: 460px;
-        }
-        
         hr {
+            opacity: 30%;
             height: 20px;
             border-style: dotted none none none;
-            border-width: 8px;
-            width: 400px;
+            border-width: 5px;
+            width: 50px;
             color: #0E8388;
         }
         
@@ -46,76 +37,85 @@
             right: 15px;
             bottom: 15px;
         }
-        
-        h1,
-        h3 {
+        table{
+            
+        }
+        h1
+        {
+            color: #ffffff;
+        }
+        h2{
             color: #0E8388;
+        }
+        p1
+        {
+            color: #ffffff;
         }
     </style>
 </head>
 
-<body style="background-color: rgba(255, 213, 0, 0.958);">
+<body>
     <a href=https://www.dsu.edu.pk/why-have-qec-2><button >Help</button></a>
-    <div>
-        <table style="padding: 10px;">
-            <tr>
-                <td>
-                    <img src="image1.png" width="150px" , height="150px">
-                </td>
-                <td style="padding-left: 50px;">
-                    <h1>Puneet Superstar</h1><br>
-                    <p1>Puneetbhai69@gmail.com</p1><br>
-                    <p1>DHA SUFFA UNIVERSITY</p1>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <h1>Learned Courses</h1>
-        <div style="padding:30px ">
-            <strong>• Programming Fundamentals</strong><br>
-            <strong>• Object Oriented Programming</strong><br>
-            <strong>• Data Structures</strong>
+    <div class="container">
+        <div class="header">
+            <table>
+                <tr>
+                    <td>
+                        <img src="image1.png" width="150px" , height="150px">
+                    </td>
+                    <td style="padding-left: 50px;">
+                        <h1>MUHAMMAD KHUZAIMA ANSARI</h1>
+                        <p1><i>Student at DHA Suffa University 🏫</i></p1><br><br>
+                        <p1>I'am a Software Engineer and Web Developer. I ❤ learning and <br> 
+                            developing awesome applications.</p1><br>
+                    </td>
+                </tr>
+            </table>
         </div>
-        <hr>
-        <h3>Academic Experience</h3>
-        <table>
-            <tr>
-                <th>Date</th>
-                <th>Qualification</th>
-                <th>Institute</th>
-            </tr>
-            <tr>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;2010-2014</td>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;Matric -Science</td>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;Peeela school</td>
-            </tr>
-            <tr>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;2014-2018</td>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;College -Engineering</td>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;Peeela College</td>
-            </tr>
-            <tr>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;2019-2023</td>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;University - BS(SE)</td>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;Peeeli University</td>
-            </tr>
+        <div style="padding-left: 20px;">
+            <h2>LEARNED COURSES</h2>
+            <div style="padding:30px ">
+                <strong>• Programming Fundamentals</strong><br>
+                <strong>• Object Oriented Programming</strong><br>
+                <strong>• Data Structures</strong>
+            </div>
+            <hr>
+            <h2>ACADEMIC EXPERIENCE</h2><br>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Qualification</th>
+                    <th>Institute</th>
+                </tr>
+                <tr>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;2017-2018</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;SSC - Science</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;The Educators school</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;2019-2020</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;HSC - Pre-Engineering</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;HiAst College</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;2020-2024</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;BS(SE)</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;Dha Suffa University</td>
+                </tr>
 
-        </table>
-        <div class="d1"></div>
-        <div class="d2"></div>
-        <div class="d3"></div>
-        <hr>
-        <h3>Skills</h3>
-        <p>Web Development &nbsp;&nbsp;&nbsp;★★★★★</p>
-        <p>Programming &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★★</p>
-        <p>React &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★★
-        </p>
-        <p>java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★★
-        </p>
-
-        <a href="Contact.html ">•  Contact Ke Liye Yaha Dabao</a><br><br>
-        <a href="https://www.dsu.edu.pk/about-us/ ">•  About Us Ke Liye Yaha Dabao</a>
-        <hr>
+            </table>
+            <br>
+            <hr>
+            <h2>SKILS</h2>
+            <p>Web Development &nbsp;&nbsp;&nbsp;⭐⭐⭐⭐⭐</p>
+            <p>Programming &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐⭐</p>
+            <p>React &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐
+            </p>
+            <p>java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐⭐
+            </p>
+            <hr>
+            <a href="Contact.html ">◻  Contact Me</a>
+        </div>
     </div>
 </body>
 
